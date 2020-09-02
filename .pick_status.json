@@ -1,5 +1,500 @@
 [
     {
+        "sha": "e953f6c001566f8acbbeaa9bf853f03074023b36",
+        "description": "docs: shift 20.2 rc dates by two weeks to match reality",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cdb666bc8fbbaf32c8a9c35a0a9e4cfc0cfebac3",
+        "description": "docs: update calendar and link releases notes for 20.1.7",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aca2bda967f1ce3c1b12c0c2b7a31b3305e2c705",
+        "description": "docs: add release notes for 20.1.7",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bbaa62e4e156012f05d2ddd9b19610d6465b62e7",
+        "description": "iris: Re-emit push constants if we have a varying workgroup size",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "33c61eb2f10526c0b90c5ad376e5b0433aec296d"
+    },
+    {
+        "sha": "fe18a0fd45c79cdba7b63959657861488c775c0d",
+        "description": "intel/nir: Lower load_num_work_groups to 32-bit if needed",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5799da47c794aced34187df2eee6fd349c51b931",
+        "description": "intel/fs: Use a single untyped surface read for load_num_work_groups",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8e8701b43a0fc1997ecdb6a9557dd3e2c1a0d398",
+        "description": "intel/fs: Don't copy-propagate stride=0 sources into ddx/ddy",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "95415a54c007a909f0fb9d1b2567beecbd73d403",
+        "description": "st/mesa: fix lowered IO - don't call st_nir_assign_vs_in_locations twice",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8c43edf9f917a801a18940bb570a295b7eed7f90",
+        "description": "nir: fix a bug in is_dual_slot in nir_io_add_const_offset_to_base",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "01ab308edc78cda777bc66f2e8110fbd8c21aa18"
+    },
+    {
+        "sha": "536727c465170c028b0d91e4eb8d94020e4a7669",
+        "description": "iris: Patch constant data pointers into shaders",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5ee32428373dd2e9ffcb419d26cb8ebe3788f298",
+        "description": "anv: Patch constant data pointers into shaders with using softpin",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a06955f4ef623c3767739f7b73438eb54b59222c",
+        "description": "nir/builder: Add load/store_global helpers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a5acf3d8c31b2360c3118a61470bb2c231faa99a",
+        "description": "anv: Properly cache brw_stage_prog_data::relocs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "91becd84ae2c9aa144ba2eb08f3e62166275a0e4",
+        "description": "intel/fs: Add support for a new load_reloc_const intrinsic",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8d8a3815ef698348857cd9812eaa0dc76f5b19b5",
+        "description": "intel/eu: Add a mechanism for emitting relocatable constant MOVs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "272ab2823d17173203f2f03c85c95acdcd7d1226",
+        "description": "intel/eu: Include brw_compiler.h in brw_eu.h",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aff078eb5a79dc53330ee8edfc755a995a041c74",
+        "description": "anv: Stop storing the shader constant data side-band",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "90b6745bc80cf6dabb8f736dbf12d47c2a6602f5",
+        "description": "intel/fs,vec4: Stuff the constant data from NIR in the end of the program",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "91348d125d9174cc06487947ab3d11c97244c72f",
+        "description": "intel/eu: Add some new helpers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bc2c5f9a4b696564fe99170d1e80fa33e989e6af",
+        "description": "iris: Use gen_disassemble",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "372774367cf5e62f49209716faa80b3ecd932746",
+        "description": "intel/compiler: Get rid of struct gen_disasm",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "54ba0daa28b7b3cac8a8df6320cfcf3715e6526b",
+        "description": "intel/compiler: Get rid of the global compaction table pointers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "191f8a4b9fcdf71c4edaa523e10b744b354fb5e4",
+        "description": "spirv: Deal with glslang not setting NonUniform on constructors.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "af81486a8cde4dec2a695884b93b282c1710d8bd"
+    },
+    {
+        "sha": "965b8441fe01645613188bfa463ef6143dd66450",
+        "description": "spirv: Deal with glslang bug not setting the decoration for stores.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "af81486a8cde4dec2a695884b93b282c1710d8bd"
+    },
+    {
+        "sha": "61b714a42ee676fe03b383c0caf050169e404c7d",
+        "description": "radv: Avoid deadlock on bo_list.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "6bc5ce7a91d07197043c097f876edf1d630c1375"
+    },
+    {
+        "sha": "6b75262941b55960e2f73d93f85020fa6c9c2d2f",
+        "description": "radv: Fix threading issue with submission refcounts.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "4aa75bb3bdd195d4715ee8fae51bfb0c0fcd823b"
+    },
+    {
+        "sha": "e4dadb545fa6cdf52b5a6a7efb5764495e09158c",
+        "description": "intel/tools: Disassemble WAIT's argument as a destination",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "329dee14555b8c8da59e6b47a51050f2aa736596",
+        "description": "gallium/tgsi_exec: Fix up NumOutputs counting",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "49155c3264d019869fadde50ff6167a369e966b6"
+    },
+    {
+        "sha": "ed745febe1c05352459869e4f67bdf6e1d2a1d0c",
+        "description": "gallium/tgsi_exec: Add missing DFLR opcode support.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9121afe861554d239b02c27a4c219ba9df523fb7",
+        "description": "nir/clone: Add a helper for cloning most instruction types",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f25e169897e73d30e31f6d19af1cc0ed487eb512",
+        "description": "nir/opt_vectorize: Add a callback for filtering of vectorizing.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "479d9c97eb2c85b7df81f39281867c5559aa0bba",
+        "description": "nir: Add simplistic lowering for bany_equal/ball_inequal.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9ed33383a5b1399315cd62f119234ee2332ee76f",
+        "description": "gallium/ureg: Set the next shader stage from the shader info.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "500b0735c0caa293d22fb3728cb76d267a016834",
+        "description": "gallium/tgsi: Add a helper for initializing ureg from a shader_info.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "34b3e1f5121ee532a1eb087e9b08c3d15e16cc9d",
+        "description": "gallium/tgsi: Add some missing opcodes to tgsi_ureg.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1ca9f22a8bd34e17f061378cf7568d40267e3c58",
+        "description": "gallium/tgsi: Add support for PRIMITIVEID as a system value.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6e7c006062ce1b95d527a50a03642cb532de5f04",
+        "description": "gallivm: Report the unsupported intrinsic instead of just assert(0);",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "615f1c8990db4499e65844d0f50dcdd43de65e37",
+        "description": "ci: Do not create manual test-docs job in post-merge pipelines",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ed9ac3d60cffc60d97f5ddc168643ed7656224bf",
+        "description": "intel/fs,vec4: remove unused assignments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8e8356e3dccc24c30c4b8765b5a023cd03ff3de5",
+        "description": "intel/compiler: mark debug constant as const",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c7a9dc76dce09d4f23260d26c629a91ef02514a0",
+        "description": "intel/compiler/test: use TEST_DEBUG env var consistently",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "289cb6b59aea755ef5e60c711bb91d9f66b3c2af",
+        "description": "intel/perf: don't generate logically dead code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0789f4b6d857d3188412d33f47bf3aa1873e2187",
+        "description": "i965: verify format width in blorp_get_client_bo",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5e676ac67171b93b0bd6be5d5b801087f305b2d5",
+        "description": "iris: verify color component width in convert_fast_clear_color",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0685815ea629d94532d3d8b7214c26d727e0280a",
+        "description": "iris: handle os_dupfd_cloexec failure",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "612ef74190ca6c4d036e014e5fc228b671513771",
+        "description": "freedreno/computerator: Use a render node",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "87fa645b9438ce7943ae09012f695a7a1bca3eeb",
+        "description": "intel/compiler: Fix pointer arithmetic when reading shader assembly",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "04a995158084acbd1917b4c7e0f8d381e1c9222d"
+    },
+    {
+        "sha": "c601e730b298c5bdd34bc4335f203d46c5cdf9b3",
+        "description": "mesa/st: Don't set alpha if ALPHA_TEST is lowered",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "6afd4addefa111c112b82a88824db7af61003407"
+    },
+    {
+        "sha": "075e40ea983fddabbb45ee5d511e66536f3c9c11",
+        "description": "turnip: Implement VK_EXT_host_query_reset",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b92be738d5696c6192a71a9eed7ea125f19c2545",
+        "description": "turnip: Support pipeline statistics query",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "170da456efe8557cbc045d56d448b0ec0362a3a1",
+        "description": "turnip: Refactor structs of tu_query",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "03fbff1efcccc0e09fc218c24b29e6d1ad4d4599",
+        "description": "intel/assembler: Add labels support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bc4a127d6e10318d48fa8b540b9c1ff7d62c8d29",
+        "description": "intel/disasm: Label support in shader disassembly for UIP/JIP",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6cbd4764cd93d5b103778a223651084eaeda64f8",
+        "description": "intel/disasm: brw_label and support functions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "afa39d07e46355fcab3d049f278a55d3cdb084dd",
+        "description": "intel/disasm: Change visibility of has_uip and has_jip",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "e94c22429b64f419d9a66f04fa5ecdad33f7f5ef",
         "description": "anv: refresh cached current batch bo after emitting some commands",
         "nominated": false,
